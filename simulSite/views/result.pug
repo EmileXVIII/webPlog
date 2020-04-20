@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title #{title}
+        link(rel="stylesheet", href=refurl)
+    body
+        form(action=actionUrl, method="post")
+            label(class="switch")
+                input(id="slider1",name="switch", type="checkbox")
+                span(class="slider round")
+            input(type="submit" value="actualize status")
+        |#{answer}
