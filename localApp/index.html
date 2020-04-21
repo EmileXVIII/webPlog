@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <section id="cover" class="min-vh-20">
+      <div id="cover-caption">
+          <div class="container">
+              <div class="row text-white">
+                  <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
+                      <h1 class="display-4 py-2 text-truncate text-primary">Web Plug</h1>
+                      <p class="text-primary">Web Plug est un site permettant de répondre aux 
+                        problemes de connectivités sur internet.</p>
+                      <div class="px-2">
+						  <div class="form-group">
+							  <label class="sr-only">Name</label>
+							  <input id="valeurClefRecherche" type="text" class="form-control" placeholder="">
+						  </div>
+						  <button onclick="cherche()" type="NOOO-submit" class="btn btn-primary btn-lg">Rechercher</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+<br>
+
+<script>
+
+function cherche(){
+	let valeurClefRecherche = document.getElementById('valeurClefRecherche').value
+	window.location.href = "/getwebsite?website="+valeurClefRecherche+"";
+}
+
+</script>
+<!-- Grid row -->
+
+<!-- Grid row -->
+<div class="gallery" id="gallery">
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <a href="/getwebsite?website=Spotify">
+        <img class="img-fluid" src="img/spotify.png" alt="Card image cap" type="submit">
+    </a>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <a href="/getwebsite?website=Youtube">
+        <img class="img-fluid" src="img/youtube.png" alt="Card image cap" type="submit">
+    </a>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <a href="/getwebsite?website=Amazon">
+      <img class="img-fluid" src="img/amazon.jpg" alt="Card image cap" type="submit">
+    </a>
+  </div>
+
+  <div class="mb-3 pics animation all 1">
+    <a href="/getwebsite?website=Deezer">
+      <img class="img-fluid" src="img/deezer.PNG" alt="Card image cap" type="submit">
+    </a>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <a href="/getwebsite?website=Auchandrive">
+      <img class="img-fluid" src="img/auchandrive.png" alt="Card image cap" type="submit">
+    </a>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <a href="/getwebsite?website=Leclercdrive">
+      <img class="img-fluid" src="img/leclercdrive.jpg" alt="Card image cap" type="submit">
+    </a>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <a href="/getwebsite?website=Boulanger">
+      <img class="img-fluid" src="img/boulanger.jpg" alt="Card image cap" type="submit">
+    </a>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <a href="/getwebsite?website=Fnac">
+      <img class="img-fluid" src="img/fnac.jpg" alt="Card image cap" type="submit">
+    </a>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <a href="/getwebsite?website=MicrosoftTeams">
+      <img class="img-fluid" src="img/microsoft.jpg" alt="Card image cap" type="submit">
+    </a>
+  </div>
+  <!-- Grid column -->
+
+</div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
