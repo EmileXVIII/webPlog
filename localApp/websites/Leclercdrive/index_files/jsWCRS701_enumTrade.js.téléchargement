@@ -1,0 +1,1 @@
+(function(){this.jsWCRS701_enumTrade={iACHAT_IMPULSION:1,iBANNIERE:2,iRECETTE:3,iTETE_DE_GONDOLE:4,iCROSS:50,iUP:51}}).call(this.ListesProduits_Trade=this.ListesProduits_Trade||{__namespace:!0},window.jQuery);typeof Sys!="undefined"&&Sys.Application.notifyScriptLoaded();

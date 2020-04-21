@@ -1,0 +1,18 @@
+/* #1482913433 */
+_oEa.pmdenyall = 0;
+_oEa.website("fnac");if (_oEa.isdef(typeof _oEa.uidset )) {_oEa.uidset("4r3L9zdW0fsQsMKNsZVngvvP7SxL3aa4IanUKOSeKmDqsl49XgKUJQ--");}var _EaCP = {"cgip" : _oEa.hcgi,"tp":{"":""}};
+_oEa.dcrun = function() {
+_oEa.xpathdc = {};
+if (_oEa.pmdenyall) { return; }
+/* {dc:3934,mode:DW,dcn:Visiteurs-Fnac-3DM} */
+/* {dc:3952,mode:DW,dcn:Visiteurs-30DJ} */
+/* {dc:3961,mode:DW,dcn:Visiteurs-All} */
+/* {dc:3970,mode:DW,dcn:Clients-NonAcheteurs-3DM} */
+/* {dc:4609,mode:DW,dcn:FNAC_Visiteurs_Prospects - collector} */
+};
+_oEa.mtrun = function() {
+_oEa.xpathmt = {};
+if (_oEa.pmdenyall) { return; }
+};
+_oEa.mtdcrun = function() {_oEa.mtrun();_oEa.dcrun();};_oEa.mtdcrun();_oEa.websiteend();
+ /* end !config */
